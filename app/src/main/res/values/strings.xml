@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Phone Locator</string>
+    <string name="welcome">PHONE LOCATOR</string>
+    <string name="log">Login in</string>
+    <string name="pass">Password</string>
+    <string name="sign">New user then click on Sign in</string>
+    <string name="forg">Forget Password</string>
+    <string name="social">Other sign in</string>
+    <string name="gel">Details:</string>
+    <string name="ald">Already a user? LOGIN</string>
+    <string name="nav_open">Open</string>
+    <string name="text1">Enter the number</string>
+    <string name="nav_close">Close</string>
+</resources>

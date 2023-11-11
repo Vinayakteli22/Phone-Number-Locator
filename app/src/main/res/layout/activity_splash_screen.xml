@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".splash_screen">
+    <!--on below line we are adding an image view-->
+
+    <!--on below line we are creating progress bar-->
+
+
+    <TextView
+        android:id="@+id/text_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="241dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_below="@+id/text_5">
+
+    </ProgressBar>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress"
+        android:layout_marginTop="271dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:text="Developed by Vinayak Teli"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+
+
+</RelativeLayout>
